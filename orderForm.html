@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <link rel="stylesheet" href="css/orderForm.css">
+        </head>
+        <div class="logo">
+            <img src="images/logo.png" id="logo" height="400px" width="500px">
+        </div>
+        <ul class = "nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/orderForm.html">Order Form</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <main>
+            <form>
+                <div class="simpleInput">
+                    <br><label for="firstName">First Name</label>
+                    <br><input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="simpleInput">
+                    <br><label for="lastName">Last Name</label>
+                    <br><input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="simpleInput">
+                    <br><label for="emailAdress">Email Address</label>
+                   <br><input type="email" id="emailAdress" name="email" required> 
+                </div>
+                <div class="options">
+                    <br><label for="optionsSelection">Pizza Selection</label>
+                    <br><input list="options" id="optionsSelection" name="optionsSelection" required>
+                    <datalist id="options">
+                        <option>Cheese</option>
+                        <option>Pepperoni</option>
+                        <option>Suasage</option>
+                        <option>Supreme</option>
+                    </datalist>
+                </div>
+                <div class="options">
+                    <br><label for="sizeSelection">Size Selection</label>
+                    <br><input list="sizeOptions" id="sizeSelection" name="sizeSelection" required>
+                    <datalist id="sizeOptions">
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                </div>
+                <div class="simpleInput">
+                    <br><label for="creditCard">Credit Card Number</label>
+                    <br><input type="password" id="creditCard" inputMode="numeric" pattern="[0-9/s]{13-19}">
+                </div>
+                <div class="simpleInput">
+                    <br><label for="cvv">CVV Number</label>
+                    <br><input type="password" id="cvv" name="cvv" inputMode="numeric" maxlength="3" pattern="([0-9]|[0-9]|[0-9])"/>
+                </div>
+                <div class="submitButton">
+                    <br><button type="submit" id="submit">Order!</button>
+                </div>
+            </form>
+        </main>
+        <style>
+            input:focus:invalid{
+                border:4px solid red
+            }
+        </style>
+    </body>
+</html>

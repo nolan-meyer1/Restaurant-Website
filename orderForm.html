@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="css/orderForm.css">
+    </head>
     <body>
-        <head>
-            <link rel="stylesheet" href="css/orderForm.css">
-        </head>
         <div class="logo">
-            <img src="images/logo.png" id="logo" height="400px" width="500px">
+            <img src="images/logo.png" id="logo" height="400px" width="500px" alt="Logo">
         </div>
         <ul class = "nav">
             <li><a href="index.html">Home</a></li>
@@ -17,19 +17,24 @@
             <form>
                 <div class="simpleInput">
                     <br><label for="firstName">First Name</label>
-                    <br><input type="text" id="firstName" name="firstName" required>
+                    <br><input type="text" id="firstName" name="firstName" placeholder="Enter first name..." required>
                 </div>
                 <div class="simpleInput">
                     <br><label for="lastName">Last Name</label>
-                    <br><input type="text" id="lastName" name="lastName" required>
+                    <br><input type="text" id="lastName" name="lastName" placeholder="Enter last name..." required>
                 </div>
                 <div class="simpleInput">
                     <br><label for="emailAdress">Email Address</label>
-                   <br><input type="email" id="emailAdress" name="email" required> 
+                   <br><input type="email" id="emailAdress" name="email" placeholder="Enter email address..." required> 
+                </div>
+                <div class="simpleInput">
+                    <br><label for="phoneNumber">Phone Number</label>
+                    <br><label><small>Formate: 123-456-7890</small></label>
+                   <br><input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number..." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> 
                 </div>
                 <div class="options">
                     <br><label for="optionsSelection">Pizza Selection</label>
-                    <br><input list="options" id="optionsSelection" name="optionsSelection" required>
+                    <br><input list="options" id="optionsSelection" name="optionsSelection" placeholder="Enter pizza type..." required>
                     <datalist id="options">
                         <option>Cheese</option>
                         <option>Pepperoni</option>
@@ -39,19 +44,28 @@
                 </div>
                 <div class="options">
                     <br><label for="sizeSelection">Size Selection</label>
-                    <br><input list="sizeOptions" id="sizeSelection" name="sizeSelection" required>
+                    <br><input list="sizeOptions" id="sizeSelection" name="sizeSelection" placeholder="Enter size..." required>
                     <datalist id="sizeOptions">
                         <option>Small</option>
                         <option>Medium</option>
                         <option>Large</option>
+                    </datalist>
+                </div>
+                <div class="simpleInput">
+                    <br><label for="numberPizza">Number of Pizza's</label>
+                   <br><input type="text" id="numberPizza" name="numberPizza" placeholder="Enter number of pizza's..." required min="1" max="5"> 
                 </div>
                 <div class="simpleInput">
                     <br><label for="creditCard">Credit Card Number</label>
-                    <br><input type="password" id="creditCard" inputMode="numeric" pattern="[0-9/s]{13-19}">
+                    <br><input type="password" id="creditCard" inputMode="numeric" placeholder="Enter credit card number..." pattern="[0-9/s]{13-19}">
                 </div>
                 <div class="simpleInput">
                     <br><label for="cvv">CVV Number</label>
-                    <br><input type="password" id="cvv" name="cvv" inputMode="numeric" maxlength="3" pattern="([0-9]|[0-9]|[0-9])"/>
+                    <br><input type="password" id="cvv" name="cvv" inputMode="numeric" maxlength="3" pattern="([0-9]|[0-9]|[0-9])" placeholder="Enter Security Code..."/>
+                </div>
+                <div class="simpleInput">
+                    <br><label for="expirationDate">Expiration Date</label>
+                    <br><input type="month" id="expirationDate" name="expirationDate" required placeholder="Enter Expiration Date"/>
                 </div>
                 <div class="submitButton">
                     <br><button type="submit" id="submit">Order!</button>

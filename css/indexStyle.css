@@ -26,3 +26,14 @@
     text-decoration: none;
     width: 25vh;
 }
+
+.paragraph {
+    margin-right:auto;
+    width: 50%;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  width: 50%;
+}

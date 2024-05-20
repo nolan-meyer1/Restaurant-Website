@@ -12,6 +12,7 @@
     display:flex;
     flex-flow: row wrap;
     justify-content: stretch;
+    text-align: center;
 }
 
 .nav li{

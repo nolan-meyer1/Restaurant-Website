@@ -28,10 +28,22 @@
     width: 25vh;
 }
 
-.paragraph {
+#header{
     text-align:center;
+    font-size:45px;
 }
 
-.paragraph{
-    font-size:25px;
+.menuItems{
+    font-size: 25px;
+    text-align: left;
+    background-color:bisque;
+}
+
+.menuItems img{
+    display:block;
+    margin:auto;
+}
+
+.menuItems p{
+    text-align: center;
 }

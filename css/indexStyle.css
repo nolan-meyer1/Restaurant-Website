@@ -35,3 +35,10 @@
 .paragraph{
     font-size:25px;
 }
+
+#footer{
+    display:flex;
+    background-color: grey;
+    flex-flow:wrap;
+
+}

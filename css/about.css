@@ -28,6 +28,17 @@
     width: 25vh;
 }
 
+#footer{
+    display:flex;
+    background-color: grey;
+    flex-flow:wrap;
+}
+
+#footer p{
+    margin-left: auto;
+    margin-top: auto;
+}
+
 #mainText{
     font-size: 30px;
 }

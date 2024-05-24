@@ -47,6 +47,13 @@
     color: white;
 }
 
-.submitButton button:hover{
-    background-color:greenyellow;
+#footer{
+    display:flex;
+    background-color: grey;
+    flex-flow:wrap;
+}
+
+#footer p{
+    margin-left: auto;
+    margin-top: auto;
 }

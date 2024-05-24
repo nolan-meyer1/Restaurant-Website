@@ -61,7 +61,7 @@
                 </div>
                 <div class="simpleInput">
                     <br><label for="cvv">CVV Number</label>
-                    <br><input type="text" id="cvv" name="cvv" inputMode="numeric" maxlength="3" placeholder="Enter Security Code..."/>
+                    <br><input id="cvv" type="number" maxlength="3" pattern="([0-9]|[0-9]|[0-9])" name="cvv" required placeholder="Enter Security Code"/>
                 </div>
                 <div class="simpleInput">
                     <br><label for="expirationDate">Expiration Date</label>
@@ -72,6 +72,13 @@
                 </div>
             </form>
         </main>
+        <footer id="footer">
+            <h3>Contact</h3>
+            <img src="images/instagram.png" height="50vh" width="50vh" alt="Instagram Logo" id="Instagram" name="Instagram">
+            <img src="images/Facebook_icon.png" height="50vh" width="50vh" alt="Facebook Logo" id="Facebook" name="Facebook">
+            <img src="images/x.webp" height="50vh" width="50vh" alt="Facebook Logo" id="Facebook" name="Facebook">
+            <p id="footerText">Nolan's Pizzaeria @ 2024</p>
+        </footer>
         <style>
             input:focus:invalid{
                 border:4px solid red

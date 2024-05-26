@@ -10,3 +10,4 @@ This is my very first project using HTML and CSS! I taught myself how to use the
 |[Menu](https://github.com/nolan-meyer1/Restaurant-Website/blob/main/menu.html)|Very simple menu page|[Style Sheet](https://github.com/nolan-meyer1/Restaurant-Website/blob/main/css/menu.css)|
 |[About](https://github.com/nolan-meyer1/Restaurant-Website/blob/main/about.html)|About page that gives a little information about this project|[Style Sheet](https://github.com/nolan-meyer1/Restaurant-Website/blob/main/css/about.css)|
 |[Images](https://github.com/nolan-meyer1/Restaurant-Website/tree/main/images)|Contains all the images used in this project|N\A|
+|[Website Link](http://pizzeria-website.s3-website-us-east-1.amazonaws.com/index.html)|Click this link to view the website in your browser|N/A|

@@ -1,5 +1,5 @@
 # Overview
-This is my very first project using HTML and CSS! I taught myself how to use the basics of HTML and CSS and decided to create a simple project to test what I have learned! For this project I decided to build a fictional website for a restraunt. I then decided to use my AWS skills to launch this static website using an S3 bucket. 
+This is my very first project using HTML and CSS! I taught myself how to use the basics of HTML and CSS and decided to create a simple project to test what I have learned! For this project I decided to build a fictional website for a restaurant. I then decided to use my AWS skills to launch this static website using a S3 bucket. 
 
 ## Project Links
 |Item|Description|CSS|

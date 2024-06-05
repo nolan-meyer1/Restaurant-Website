@@ -47,6 +47,10 @@
     color: white;
 }
 
+.submitButton:hover{
+    opacity:50%;
+}
+
 #footer{
     display:flex;
     background-color: grey;
